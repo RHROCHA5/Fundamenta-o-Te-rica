@@ -20,10 +20,10 @@ Nossa teoria fundamenta-se na seguinte formulação matemática:
 
 ### 1. Modulação da Ativação Neuronal por CEMs Variáveis:
 
-A interação primária é modelada pela variação temporal do campo magnético ($-\frac{\partial B}{\partial t}$), 
+A interação primária é modelada pela variação temporal do campo magnético ((-∂B/∂t)), 
 um componente do CEM que, por indução eletromagnética (Lei de Faraday), gera um campo elétrico no tecido neural. 
-Este campo elétrico induzido é postulado como modulador direto da **função de ativação do neurônio ($\Delta \sigma$)**. 
-Consequentemente, a taxa de variação do estado do neurônio ($Z'$) é alterada em função de seu estado basal ($Z$) e da influência do CEM.
+Este campo elétrico induzido é postulado como modulador direto da **função de ativação do neurônio (Δσ)**. 
+Consequentemente, a taxa de variação do estado do neurônio (Z') é alterada em função de seu estado basal (Z) e da influência do CEM.
 A equação que descreve essa interação é:
 
 ![Equação Z linha](Z'= Z + Δσ * (-∂B/∂t))
@@ -39,14 +39,14 @@ Onde:
 A disfunção resultante do "estresse neural" ou da desmielinização é quantificada através da análise do movimento e da dissipação das correntes iônicas (C.I.), essenciais para a propagação do impulso.
 A velocidade de propagação ou a dissipação das C.I. pode ser expressa por:
 
-![Equação de Velocidade](V = λ/t)
+![Equação de Velocidade]()
 
 Onde:
 * **V**: Representa a velocidade das correntes iônicas ou uma taxa de dissipação (e.g., [comprimento]/[tempo] ou [taxa de fluxo de corrente]).
 * **λ**: É o comprimento percorrido pelo impulso ou a dimensão espacial em análise.
 * **t**: Corresponde ao tempo de propagação ou período de observação.
 
-Adicionalmente, propõe-se que a taxa de estresse do neurônio ($Z'$) pode ser diretamente correlacionada à circulação da velocidade das correntes iônicas ao longo de um caminho fechado ($\oint V \cdot dl$). 
+Adicionalmente, propõe-se que a taxa de estresse do neurônio ($Z'$) pode ser diretamente correlacionada à circulação da velocidade das correntes iônicas ao longo de um caminho fechado (∮V.dl). 
 Esta formulação permite a avaliação quantitativa do impacto do CEM e da disfunção neuronal em diferentes regiões afetadas pela desmielinização da EM:
 
 ![Equação da Integral](∮V.dl = Z')
