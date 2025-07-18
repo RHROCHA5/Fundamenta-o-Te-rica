@@ -1,1 +1,0 @@
-# Fundamenta-o-Te-rica
