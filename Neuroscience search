@@ -12,22 +12,30 @@ Este trabalho propõe e investiga, através de modelagem computacional, a hipót
 
 Nossa teoria fundamenta-se na seguinte formulação:
 
-**1. Modulação da Ativação Neuronal por CEMs Variáveis:**
+### 1. Modulação da Ativação Neuronal por CEMs Variáveis:
+
 A interação primária é modelada pela variação temporal do campo magnético ($-\frac{\partial B}{\partial t}$), um componente do CEM que, por indução eletromagnética (Lei de Faraday), gera um campo elétrico no tecido neural. Este campo elétrico induzido é postulado como modulador direto da **função de ativação do neurônio ($\Delta \sigma$)**. Consequentemente, a taxa de variação do estado do neurônio ($Z'$) é alterada em função de seu estado basal ($Z$) e da influência do CEM.
 A equação que descreve essa interação é:
 
-$$Z' = Z + \Delta \sigma \cdot \left( - \frac{\partial B}{\partial t} \right)$$
+$$
+Z' = Z + \Delta \sigma \cdot \left( - \frac{\partial B}{\partial t} \right)
+$$
+
 Onde:
 * $Z'$: Representa a taxa de variação do estado do neurônio (neurônio "estressado" ou com função alterada).
 * $Z$: Corresponde ao estado basal do neurônio (em ausência de perturbações significativas do CEM).
 * $\Delta \sigma$: É a variação da função de ativação do neurônio, diretamente influenciada pela presença do CEM variável.
 * $-\frac{\partial B}{\partial t}$: Denota a taxa de variação do campo magnético em relação ao tempo, servindo como o estímulo eletromagnético indutor primário.
 
-**2. Quantificação da Disfunção e Dissipação de Correntes Iônicas:**
+### 2. Quantificação da Disfunção e Dissipação de Correntes Iônicas:
+
 A disfunção resultante do "estresse neural" ou da desmielinização é quantificada através da análise do movimento e da dissipação das correntes iônicas (C.I.), essenciais para a propagação do impulso.
 A velocidade de propagação ou a dissipação das C.I. pode ser expressa por:
 
-$$V = \frac{\lambda}{t}$$
+$$
+V = \frac{\lambda}{t}
+$$
+
 Onde:
 * $V$: Representa a velocidade das correntes iônicas ou uma taxa de dissipação (e.g., [comprimento]/[tempo] ou [taxa de fluxo de corrente]).
 * $\lambda$: É o comprimento percorrido pelo impulso ou a dimensão espacial em análise.
@@ -35,7 +43,10 @@ Onde:
 
 Adicionalmente, propõe-se que a taxa de estresse do neurônio ($Z'$) pode ser diretamente correlacionada à circulação da velocidade das correntes iônicas ao longo de um caminho fechado ($\oint V \cdot dl$). Esta formulação permite a avaliação quantitativa do impacto do CEM e da disfunção neuronal em diferentes regiões afetadas pela desmielinização da EM:
 
-$$\oint V \cdot dl = Z'$$
+$$
+\oint V \cdot dl = Z'
+$$
+
 Esta integral de linha (ou de superfície, dependendo da modelagem espacial) é utilizada para quantificar o movimento das correntes iônicas induzidas, fornecendo uma métrica para o "estresse" ou a "perda funcional" que se manifesta na desmielinização.
 
 Acreditamos que, ao explorar computacionalmente esses mecanismos, podemos elucidar o papel dos CEMs como um fator etiológico ou exacerbador na Esclerose Múltipla, contribuindo para uma compreensão mais profunda dessa complexa patologia.
