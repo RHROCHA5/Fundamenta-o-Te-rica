@@ -54,13 +54,14 @@ Acreditamos que, ao explorar computacionalmente esses mecanismos, podemos elucid
 
 ---
 
-## Licenciamento
+## 📄 Licenciamento
 
-O código-fonte (arquivos .py, scripts, etc.) deste projeto está licenciado sob a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
-* **LICENSE**: [GNU V3](https://github.com/RHROCHA5/Theory-Fundamental/blob/main/LICENSE)
+O código-fonte (arquivos .py, scripts, etc.) deste projeto está licenciado sob a **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)**.
+* **LICENSE**: Encontre os termos da licença **[aqui](https://github.com/RHROCHA5/Theory-Fundamental/blob/main/LICENSE)**.
 
-Todo o conteúdo textual, figuras e os arquivos Jupyter Notebook (`.ipynb`) neste repositório estão licenciados sob a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-* **LICENSE**: [CC BY-NC-SA 4.0](https://github.com/RHROCHA5/Theory-Fundamental/blob/main/LICENSE-CC)
+Todo o conteúdo textual, figuras e os arquivos Jupyter Notebook (`.ipynb`) neste repositório estão licenciados sob a **[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)**.
+* **LICENSE**: Encontre os termos da licença **[aqui](https://github.com/RHROCHA5/Theory-Fundamental/blob/main/LICENSE-CC)**.
+
 Você é livre para:
 * **Compartilhar** — copiar e redistribuir o material em qualquer suporte ou formato.
 * **Adaptar** — remixar, transformar, e criar a partir do material para qualquer fim, mesmo que comercial.
